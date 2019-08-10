@@ -1,0 +1,16 @@
+<ActionBar title="My App" class="action-bar"> </ActionBar>
+<GridLayout class="page" rows="auto, *">
+  <TextField
+    hint="Search"
+    row="0"
+    (textChange)="onTextChange($event)"
+  ></TextField>
+  <ListView [items]="items" class="list-group" row="1">
+    <ng-template let-item="item">
+      <StackLayout>
+        <Label [text]="item._source.name" class="list-group-item" style="font-weight: bold;"></Label>
+        <Label [text]="item._source.email" class="list-group-item" style="font-size: 14"></Label>
+      </StackLayout>
+    </ng-template>
+  </ListView>
+</GridLayout>
