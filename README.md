@@ -11,4 +11,4 @@ Realtime search in nativescript/angular app using elasticsearch, nodejs and rxjs
 
 ## Note
 
-Be careful about <code>get method url</code> in <code>item.service.ts</code> file
+Be careful about <code>get method's url</code> in <code>item.service.ts</code> file
