@@ -23,7 +23,7 @@
     "@angular/router": "~8.0.0",
     "body-parser": "^1.19.0",
     "elasticsearch": "^16.3.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nativescript-angular": "~8.0.0",
     "nativescript-theme-core": "~1.0.6",
     "reflect-metadata": "~0.1.12",
